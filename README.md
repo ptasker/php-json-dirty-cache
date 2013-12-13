@@ -1,4 +1,4 @@
 php-json-dirty-cache
 ====================
 
-Caching mechanism using text files and json.
+Method to cache things to the file system. Quick and dirty, and easy!

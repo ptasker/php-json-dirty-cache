@@ -8,7 +8,7 @@ class PHP_JSON_Dirty_Cache
 
     function get_cache_data ( $key, $expiry )
     {
-        $cache = $this->cache_dir . 'cache-' . $key . ".json";
+		$cache = $this->cache_dir . 'cache-' . $key . ".json";
 
         if ( file_exists ( $cache ) && filemtime ( $cache ) > time () - $expiry ) {
 
