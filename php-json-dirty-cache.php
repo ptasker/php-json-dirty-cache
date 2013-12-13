@@ -4,7 +4,7 @@
 class PHP_JSON_Dirty_Cache
 {
 
-	protected $cache_dir= dirname(__FILE__) . 'cache';
+protected $cache_dir= dirname(__FILE__) . 'cache';
 
     function get_cache_data ( $key, $expiry )
     {
